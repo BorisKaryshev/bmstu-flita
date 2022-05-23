@@ -1,0 +1,5 @@
+g++ main.cpp Graph.cpp -std=gnu++11 -o main
+./main
+dot -Tsvg output.dot -o ./Graph.svg
+rm main
+rm output.dot          
